@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC-CAR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top m-1">
+            <div class="container">
+                        <h1 class="navbar-brand m-0 text-start">EBAC-CAR</h1>
+                        <button class="navbar-toggler ms-auto" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <nav class="navbar-collapse collapse justify-content-end p-6 text-center" id="menu-navegacao">
+                        <ul class="nav nav-pills d-block d-md-flex align-items-center">
+                            <li class="nav-item"><a class="nav-link active" href="#adventure">ADVENTURE</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#marine">MARINE</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#car">PREMIUM CAR</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+            </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <!-- Carrousel de imagens -->
+        <div id="carousel-exemplo" class="carousel slide" class="carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://images.pexels.com/photos/16668798/pexels-photo-16668798/free-photo-of-veiculo-carro-aventura-facanha.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <div class="carousel-caption">
+                        <h2>Adenture</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://images.pexels.com/photos/1429775/pexels-photo-1429775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <div class="carousel-caption">
+                        <h2>Premium car</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://images.pexels.com/photos/625418/pexels-photo-625418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <div class="carousel-caption">
+                        <h2>Marine</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <!-- Seções Marine, adventure e Car premium... -->
+        <div class="container">
+            <!-- data-bs-spy="scroll" tem como função atualizar o button e visualizar o scroll ao rolar a pagina -->
+        <div >
+            <!-- section adventure -->
+            <section id="adventure">
+                <div class="container pt-4">
+                    <div class="row">
+                            <h2 class="text-center font-text">
+                                <i class="bi bi-tree-fill"></i>
+                                Adventure
+                            </h2>
+                            
+                        <div class="col-md-4 flex-fill">
+                            <article class="card mt-2 mb-5">
+                                <header class="card-header">
+                                    VENTURA M550 L
+                                </header>
+                                <img src="https://eshop-api.emutuadigital.com/storage/636b2520a0a079701/catalog/productMedia/637792d6302546809/6380c2ca747a33452.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        Ficha Técnica
+                                    </h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.
+                                        Soluta, ea at architecto impedit 
+                                        sit possimus enim adipisci tempora vitae qui 
+                                        consequuntur commodi repudiandae deleniti rerum.
+                                        Dolores error tempore placeat blanditiis.
+                                    </p>
+                                    <a href="" class="btn btn-success justify-content-center d-flex">Onde comprar</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-4 flex-fill">
+                            <article class="card mt-2 mb-5">
+                                <header class="card-header ">
+                                    300 RXS
+                                </header>
+                                <img 
+                                src="img/Beta300RXturn2_e.jpg" 
+                                alt=""
+                                >
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        Ficha Técnica
+                                    </h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.
+                                        Soluta, ea at architecto impedit 
+                                        sit possimus enim adipisci tempora vitae qui 
+                                        consequuntur commodi repudiandae deleniti rerum.
+                                        Dolores error tempore placeat blanditiis.
+                                    </p>
+                                    <a href="" class="btn btn-success justify-content-center d-flex">Onde comprar</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-4 flex-fill">
+                            <article class="card mt-2 mb-5">
+                                <header class="card-header">
+                                    VENTURA M550 L
+                                </header>
+                                <img src="https://eshop-api.emutuadigital.com/storage/636b2520a0a079701/catalog/productMedia/637792d6302546809/6380c2ca747a33452.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        Ficha Técnica
+                                    </h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.
+                                        Soluta, ea at architecto impedit 
+                                        sit possimus enim adipisci tempora vitae qui 
+                                        consequuntur commodi repudiandae deleniti rerum.
+                                        Dolores error tempore placeat blanditiis.
+                                    </p>
+                                    <a href="" class="btn btn-success justify-content-center d-flex">Onde comprar</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section marine -->
+            <section id="marine">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="text-center font-text mt-5">
+                            <i class="bi bi-water"></i>
+                            Marine
+                        </h2>
+                        <div class="col-md-4 flex-fill">
+                            <article class="card mt-2 mb-5">
+                                <header class="card-header">
+                                    VENTURA M550 L
+                                </header>
+                                <img src="https://images.pexels.com/photos/50911/pexels-photo-50911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        Ficha Técnica
+                                    </h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.
+                                        Soluta, ea at architecto impedit 
+                                        sit possimus enim adipisci tempora vitae qui 
+                                        consequuntur commodi repudiandae deleniti rerum.
+                                        Dolores error tempore placeat blanditiis.
+                                    </p>
+                                    <a href="" class="btn btn-success justify-content-center d-flex">Onde comprar</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-4 flex-fill">
+                            <article class="card mt-2 mb-5">
+                                <header class="card-header ">
+                                    300 RXS
+                                </header>
+                                <img src="https://images.pexels.com/photos/42091/pexels-photo-42091.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        Ficha Técnica
+                                    </h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.
+                                        Soluta, ea at architecto impedit 
+                                        sit possimus enim adipisci tempora vitae qui 
+                                        consequuntur commodi repudiandae deleniti rerum.
+                                        Dolores error tempore placeat blanditiis.
+                                    </p>
+                                    <a href="" class="btn btn-success justify-content-center d-flex">Onde comprar</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-4 flex-fill">
+                            <article class="card mt-2 mb-5">
+                                <header class="card-header">
+                                    VENTURA M550 L
+                                </header>
+                                <img src="https://images.pexels.com/photos/163236/luxury-yacht-boat-speed-water-163236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        Ficha Técnica
+                                    </h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.
+                                        Soluta, ea at architecto impedit 
+                                        sit possimus enim adipisci tempora vitae qui 
+                                        consequuntur commodi repudiandae deleniti rerum.
+                                        Dolores error tempore placeat blanditiis.
+                                    </p>
+                                    <a href="" class="btn btn-success justify-content-center d-flex">Onde comprar</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Carros premium -->
+            <section id="car" class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center font-text mt-5">
+                        <i class="bi bi-speedometer2"></i>
+                        Car Premium
+                    </h2>
+                    <div class="col-md-4 flex-fill">
+                        <article class="card mt-2 mb-5">
+                            <header class="card-header">
+                                VENTURA M550 L
+                            </header>
+                            <img src="https://images.pexels.com/photos/16345871/pexels-photo-16345871/free-photo-of-azul-veiculo-carro-carro-esportivo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Ficha Técnica
+                                </h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit.
+                                    Soluta, ea at architecto impedit 
+                                    sit possimus enim adipisci tempora vitae qui 
+                                    consequuntur commodi repudiandae deleniti rerum.
+                                    Dolores error tempore placeat blanditiis.
+                                </p>
+                                <a href="" class="btn btn-success justify-content-center d-flex">Onde comprar</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-4 flex-fill">
+                        <article class="card mt-2 mb-5">
+                            <header class="card-header ">
+                                300 RXS
+                            </header>
+                            <img src="https://images.pexels.com/photos/15677090/pexels-photo-15677090/free-photo-of-construcao-predio-edificio-carro.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Ficha Técnica
+                                </h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit.
+                                    Soluta, ea at architecto impedit 
+                                    sit possimus enim adipisci tempora vitae qui 
+                                    consequuntur commodi repudiandae deleniti rerum.
+                                    Dolores error tempore placeat blanditiis.
+                                </p>
+                                <a href="" class="btn btn-success justify-content-center d-flex">Onde comprar</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-4 flex-fill">
+                        <article class="card mt-2 mb-5">
+                            <header class="card-header">
+                                VENTURA M550 L
+                            </header>
+                            <img src="https://images.pexels.com/photos/2611686/pexels-photo-2611686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Ficha Técnica
+                                </h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit.
+                                    Soluta, ea at architecto impedit 
+                                    sit possimus enim adipisci tempora vitae qui 
+                                    consequuntur commodi repudiandae deleniti rerum.
+                                    Dolores error tempore placeat blanditiis.
+                                </p>
+                                <a href="" class="btn btn-success justify-content-center d-flex">Onde comprar</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <!-- Contato -->
+        </section>
+            <section id="contact" class="mb-5">
+                <h2 class="font-text">Contact</h2>
+                <h6>Entre em contato com o nosso time de vendas.</h6>
+                <div class="container d-flex">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Seu nome:</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Seu email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="exemplo@gmail.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="fone" class="form-label">Seu número:</label>
+                            <input type="tel" class="form-control" id="fone" placeholder="(00) 00000-0000" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="FormControlTextarea" class="form-label">Mensagem:</label>
+                            <textarea class="form-control" id="FormControlTextarea" rows="3"></textarea>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="aceito-termos" required>
+                            <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
+                        </div>
+                        <button type="submit" class="btn btn-success w-100">Cadastrar</button>
+                    </form>
+                </div>
+            </section>   
+        </div>
+    </div>
+    </div>
+    <footer class="footer justify-content-center align-items-center d-flex p-4" >
+        <p class="text-center m-0">
+            &copy; 2024 - Desenvolvido por Eleandro
+        </p>
+    </footer>    
+    <script src="lib/JS/jquery.min.js"></script>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="lib/JS/jquery.validate.min.js"></script>
+    <script src="lib/JS/messages_pt_BR.min.js"></script>
+    <script src="lib/JS/jquery.mask.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
